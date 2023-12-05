@@ -34,9 +34,7 @@ if st.button("Is this sexist?"):
         if binary == "Sexist":
             st.success(f"Oh no, this phrase is {binary} :( (With {prediction*100}% certainty...)")
         elif binary == "Not Sexist" and prediction > 0.3:
-            st.success(f"This phrase is {binary}! (However we detected
-                       a {prediction*100}% probability of sexism...
-                       We reccommend rewriting your phrase.")
+            st.success(f"This phrase is {binary}! (However we detected a {prediction*100}% probability of sexism... We reccommend rewriting your phrase.)")
         else:
             st.success(f"Congratulations, you're phrase is {binary}! (With {prediction*100}% certainty...)")
     else:
