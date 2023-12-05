@@ -11,8 +11,8 @@ button = st.button("Is this sexist?")
 
 
 if st.button("Is this sexist?"):
-    data = {
-        "text": entry_text}
+    # data = {
+    #     "text": entry_text}
     # Replace 'YOUR_API_ENDPOINT' with the actual endpoint of your API
     #api_endpoint = 'YOUR_API_ENDPOINT'
 
@@ -47,8 +47,8 @@ if st.button("Is this sexist?"):
 
 
 
-import streamlit as st
-import requests
+# import streamlit as st
+# import requests
 
 # # Function to simulate an API call
 # def simulate_api_call():
