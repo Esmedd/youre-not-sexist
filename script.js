@@ -1,8 +1,8 @@
-let taxiFareApiUrl = 'http://localhost:8001/predict'; // replace with your API endpoint
+let yourenotsexistApiUrl = 'http://localhost:8001/predict'; // replace with your API endpoint
 const centralCoordinates = [-74.00597, 40.71427]; // starting position [lng, lat]
 
-if (window.location.href.includes('https://taxifare.lewagon.com')) {
-  taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
+if (window.location.href.includes('https://yourenotsexist.lewagon.com')) {
+  yourenotsexistApiUrl = 'https://yourenotsexist.lewagon.ai/predict';
 }
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
@@ -198,7 +198,7 @@ const predict = () => {
         query.push(`${param}=${data[param]}`)
       })
       const querystring = query.join('&')
-      const url = `${taxiFareApiUrl}?${querystring}`
+      const url = `${yourenotsexistApiUrl}?${querystring}`
       fetch(url, {
         method: 'GET',
         headers: {
