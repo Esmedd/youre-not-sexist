@@ -1,0 +1,54 @@
+name_sg_fem,name_pl_fem,negverb,action,insult_fem,sport,reason_fem,intro,verb_pos_mas,adno_mas,activity_neg_fem ,activity_pos_mas,adj_fem,adj_mas,char_mas,activities_mas,name_sg_mas,name_pl_mas,insult_mas,reason_mas,verb_pos_fem,adno_fem,activity_pos_fem ,activity man,Template
+woman,women,can't,think,shit,Soccer,its gross,I can't stand,drink,single,gossip,logic,emotional,strong,Strength,sport,Man,Men,shit,they aren't built for it,love,Nurses,cooking,making money,Personally I think {name_pl_fem} {negverb} {activity_pos_mas} because {reason_fem}
+girl,girls,shouldn't,fuck,horrible,American Football,No need to explain why,I do hold the firm belief that ,wrestle,presidents,bitch,math,indecisive,manly,Manliness,coaching,Boy,boys,horrible,it's not in their genes,have empathy,Teachers,birth control,going to work,{name_pl_fem} just {negverb} {activity_pos_mas}
+chick,chicks,aren't,be,crap,Baseball,It just doesn't sound right.,I can't deal with ,smoke,bosses,talk about fashion,driving,mediocre,logical,Logic,hunting,Guy,guys,crap,it's not manly,care for children,Secretaries,looking after kids,driving a car,I can't stand working in an office with {name_pl_fem} who {activity_neg_fem } the entire time
+bitch,bitches,won't ever ,believe ,deceptive,Basketball,I'll argue that till the grave.,I just can't consider,ride horses,pilots,giggle,hunting,delicate,powerful,Power,leading,Gentleman,gentlemen,all pigs,it's degrading,cook,Librarians,decorating a house,owning a house,I do hold the firm belief that {name_pl_fem} {negverb} be allowed to {verb_pos_mas}. {reason_fem}
+female,females,shouldn't be allowed to,,bitchy,Ice Hockey,it's not elegant,,ride motorbikes,construction workers,laugh,fishing,excitable,precise,Precision,driving,Fellow,fellows,unintuitive,it's a woman's job,multitask,Receptionists,vacuuming,gardening,I can't deal with woman {adno_mas}. {reason_fem}
+lady,ladies,,,weak,Rugby,it's not ladylike,,drive,Blacksmiths,dress like sluts,debating,soft,impulsive,Impulsiveness,navigating,Lad,lads,impulsive,its gross,care for a family,Housekeepers,,,"I'm not saying {name_pl_fem} can't be {adno_mas}, it's the fact that they are incredibly more {insult_fem}"
+uterus,lesbians,,,emotional,Boxing,they aren't built for it,,curse,Soldiers,dress provocatively,coding,tender,hot-blooded,Hot-bloodedness,fishing,Chap,chaps,hot-blooded,it's gay,look after themselves,Nannies,,,With any woman {adno_mas} I can't listen to or even think their information is credible
+lesbian,lesbos,,,indecisive,tennis coaching,it's not in their genes,,swear,Firefighters,,science,fragile,wise,Wisdom,sailing a boat,Bloke,blokes,macho,it's for fags only,get emotional,Waitresses,,,"For a {name_sg_fem} that is good, they're usually too {insult_fem} to {verb_pos_mas}"
+lesbo,sluts,,,mediocre,Golf,it's a man's job,,Box,Police Officers,,physics,warm,perceptive,Perception,mechanics,Dude,dudes,agressive,,keep their mouth shut,Seamstresses,,,This is exactly why {name_pl_fem} {negverb}  be {adno_mas}. Any career that requires {char_mas} is no place for {insult_fem}{name_pl_fem}.
+slut,houswives,,,delicate,Tennis,tbh,,make art,Construction Workers,,management,understanding,clever,Cleverness,debating,husband,brothers,cocky,,Sew,Midwives,,,Sucking at {activity_pos_mas} is just a requirement for being a {name_sg_fem}
+housewife,moms,,,puny,Cricket,!!!!,,Navigate,Miners,,farming,hypersensitive,wise,Wisdom,making money,father,males,pompous,,keep a house,Childcare Workers,,,I'm sorry but {name_pl_fem} just can't {activity_pos_mas}
+mom,mothers,,,soft,Weightlifting,,,Lift weights,Carpenters,,sport,intuitive,educated,Education,going to work,Sir,young men,arrogant,,Bake,Social Workers,,,"She can {verb_pos_mas} like a {name_sg_mas}, but she {verb_pos_fem}s like a {name_sg_fem}"
+mother,milfs,,,undependable,Powerlifting,,,Surf,Electricians,,sport,sensitive,informed,Information,driving a car,Brother,old men,egocentric,,Knit,Dancers,,,There are certain things that a {name_sg_fem} can't tell me NOTHING about.
+milf,,,,fragile,Surfing,,,fly planes,Plumbers,,coaching,sentimental,knowledgeable,Knowledge,owning a house,Son,fellas,rude,,keep quiet,Hairdressers,,,I'll take a {name_sg_fem} who can {verb_pos_fem} over one who can't ANY DAY
+,,,,inferior,Snowboarding,,,Ski,Mechanics,,hunting,attentive,virile,Virility,gardening,Father,fathers,brash,,be discrete,Flight Attendants,,,Personally I think {name_pl_mas} {negverb} {activity_pos_fem} because {reason_mas}
+,,,,lesser,Skiing,,,Hunt,Welders,,leading,perceptive,energetic,Energy,,Grandfather,husbands,,,respect men,receptionists,,,{name_pl_mas} just {negverb} {verb_pos_fem} 
+,,,,subbordinate,Cycling,,,Fish,Truck Drivers,,driving,civilised,forceful,Force,,Fella,,,,Decorate a house,stay at home parents,,,I do hold the firm belief that {name_pl_mas}  {negverb} {verb_pos_fem} . {reason_mas}
+,,,,intuitive,Fencing,,,Row,winemakers,,navigating,feminine,powerful,Power,,young man,,,,clean,parents,,,I can't deal with male {adno_fem} . {reason_mas}
+,,,,sensitive,Rowing,,,Sail,Fishermen,,fishing,,vigorous,Vigor,,,,,,cook and clean,carers,,,"I'm not saying {name_pl_mas}  can't be {adno_fem} , it's the fact that they are incredibly more {insult_mas}"
+,,,,sentimental,Shooting,,,provide for a family,Brewers,,sailing a boat,,rigorous,Rigor,,,,,,Clean,masseuses,,,"{name_pl_mas}  make {insult_mas} {adno_fem} , they're too not {adj_fem} enough"
+,,,,histrionic,Archery,,,Climb,head chefs,,mechanics,,macho,Machismo,,,,,,keep slim,,,,"a {name_sg_fem} shouldn't have to worry about {verb_pos_mas}, that's a {name_sg_mas} 's job"
+,,,,irrational,Baseball,,,Build anything,Bartenders,,debating,,,,,,,,,pole dance,,,,"a {name_sg_mas}  shouldn't have to worry about {activity_pos_fem }, that's a {name_sg_fem}'s job"
+,,,,pathetic,Softball,,,Race,Butchers,,,,,,,,,,,wear heels,,,,"a {name_sg_fem} shouldn't {verb_pos_mas}, that should be left to {name_pl_mas} "
+,,,,touchy feely,Lacrosse,,,spit,Farmers,,,,,,,,,,,change a diaper,,,,I'll take a {name_sg_mas}  who can {verb_pos_mas} over one who can't ANY DAY
+,,,,slutty,Track and Field,,,Fix cars,Hunters,,,,,,,,,,,change a nappy,,,,"You can call me sexist if you want, but if you're a {name_sg_fem} can't {verb_pos_fem} you become less attractive."
+,,,,,Canoeing/Kayaking,,,own property,Sailors,,,,,,,,,,,babysit,,,,it's evident a {name_sg_fem} can't do a {name_sg_mas} 's job when it comes to {activity_pos_mas}
+,,,,,Table Tennis,,,Operate drones,Loggers,,,,,,,,,,,,,,,it's evident a {name_sg_mas}  can't do a {name_sg_fem}'s job when it comes to {activity_pos_fem }
+,,,,,,,,Skateboard,Landscapers,,,,,,,,,,,,,,,They exist because {name_pl_fem} can't compete with {name_pl_mas}  in {activity_pos_mas}. That is the only fair solution.
+,,,,,,,,take a joke,Truck Drivers,,,,,,,,,,,,,,,whenever a {name_sg_fem} disagrees with me I just assume she's too {insult_fem} to correctly comprehend the situation
+,,,,,,,,use guns,Roofers,,,,,,,,,,,,,,,"no {name_sg_mas} should ever have to {verb_pos_fem} ...EVER!!! not because we are {name_pl_mas} , simply because we can't..."
+,,,,,,,,Run a business,Bricklayers,,,,,,,,,,,,,,,{name_pl_mas} should be able to {verb_pos_mas}. {name_pl_mas} who can't {verb_pos_mas} come across as {adj_fem}
+,,,,,,,,Experiment with technology,Garbage Collectors,,,,,,,,,,,,,,,
+,,,,,,,,Travel solo,Oil Rig Workers,,,,,,,,,,,,,,,
+,,,,,,,,Learn martial arts,Taxi Drivers,,,,,,,,,,,,,,,
+,,,,,,,,have weapons,Bus Drivers,,,,,,,,,,,,,,,
+,,,,,,,,Play chess,Train Engineers,,,,,,,,,,,,,,,
+,,,,,,,,play golf,Sailors,,,,,,,,,,,,,,,
+,,,,,,,,play drums,Auto Mechanics,,,,,,,,,,,,,,,
+,,,,,,,,Shoot,Security Guards,,,,,,,,,,,,,,,
+,,,,,,,,Hike,Surveyors,,,,,,,,,,,,,,,
+,,,,,,,,Camp,Dock Workers,,,,,,,,,,,,,,,
+,,,,,,,,Play musical instruments,Machinists,,,,,,,,,,,,,,,
+,,,,,,,,code,Policemen,,,,,,,,,,,,,,,
+,,,,,,,,discuss philosophy,Barbers,,,,,,,,,,,,,,,
+,,,,,,,,Create art,doctors,,,,,,,,,,,,,,,
+,,,,,,,,play video games,surgeons,,,,,,,,,,,,,,,
+,,,,,,,,Drive off-road,judges,,,,,,,,,,,,,,,
+,,,,,,,,be funny,politicians,,,,,,,,,,,,,,,
+,,,,,,,,use logic,in the police force,,,,,,,,,,,,,,,
+,,,,,,,,vote,in the army,,,,,,,,,,,,,,,
+,,,,,,,,handle their drugs,in politics,,,,,,,,,,,,,,,
+,,,,,,,,handle liquor,,,,,,,,,,,,,,,,
+,,,,,,,,drink booze,,,,,,,,,,,,,,,,

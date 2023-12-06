@@ -22,6 +22,7 @@ if st.button("Is this sexist?"):
 
     # Display prediction result
     #if response.status_code == 200:
+
     if response > 0:
         #prediction = response.json()[1]
         prediction = response
