@@ -7,7 +7,6 @@ st.title("Sexism Prediction App")
 st.write("This app predicts if a statement is sexist or not")
 
 entry_text = st.text_input("Statement", "women should stay in the kitchen")
-button = st.button("Is this sexist?")
 
 
 if st.button("Is this sexist?"):
@@ -15,13 +14,13 @@ if st.button("Is this sexist?"):
         "text": entry_text}
 
     api_endpoint = 'http://localhost:8000/predict'
-    response = requests.post(api_endpoint, json=data)
-
+    response = requests.get(api_endpoint, params=data)
+    nice = response.json()
 
     # Display prediction result
     if response.status_code == 200:
 
-        prediction = response.json()[1]
+        prediction = round(list(nice.values())[0], 3)
 
         def determine_result(prediction):
             return "Sexist" if prediction > 0.5 else "Not Sexist"
@@ -30,7 +29,7 @@ if st.button("Is this sexist?"):
 
         if binary == "Sexist":
             st.success(f"Oh no, this phrase is {binary} :( (With {prediction*100}% certainty...)")
-        elif binary == "Not Sexist" and prediction > 0.3:
+        elif binary == "Not Sexist" and prediction > 0.35:
             st.success(f"This phrase is {binary}! (However we detected a {prediction*100}% probability of sexism... We reccommend rewriting your phrase.)")
         else:
             st.success(f"Congratulations, you're phrase is {binary}! (With {prediction*100}% certainty...)")
