@@ -13,7 +13,7 @@ if st.button("Is this sexist?"):
         "text": entry_text}
 
     api_endpoint = 'http://localhost:8000/predict'
-    response = requests.post(api_endpoint, json=data)
+    response = requests.get(api_endpoint, params=data)
 
 
     # Display prediction result
