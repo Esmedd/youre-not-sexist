@@ -7,8 +7,6 @@ st.title("Sexism Prediction App")
 st.write("This app predicts if a statement is sexist or not")
 
 entry_text = st.text_input("Statement", "women should stay in the kitchen")
-button = st.button("Is this sexist?")
-
 
 if st.button("Is this sexist?"):
     data = {
