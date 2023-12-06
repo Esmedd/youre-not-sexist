@@ -11,20 +11,17 @@ button = st.button("Is this sexist?")
 
 
 if st.button("Is this sexist?"):
-    # data = {
-    #     "text": entry_text}
-    # Replace 'YOUR_API_ENDPOINT' with the actual endpoint of your API
-    #api_endpoint = 'YOUR_API_ENDPOINT'
+    data = {
+        "text": entry_text}
 
-    # Make API request
-    #response = requests.post(api_endpoint, json=data)
-    response = random.random()
+    api_endpoint = 'http://localhost:8000/predict'
+    response = requests.post(api_endpoint, json=data)
+
 
     # Display prediction result
-    #if response.status_code == 200:
-    if response > 0:
-        #prediction = response.json()[1]
-        prediction = response
+    if response.status_code == 200:
+
+        prediction = response.json()[1]
 
         def determine_result(prediction):
             return "Sexist" if prediction > 0.5 else "Not Sexist"
