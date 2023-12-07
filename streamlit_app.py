@@ -4,8 +4,8 @@ import time
 import random
 from sexism_generator import *
 
-st.title("Sexism Prediction App")
-st.write("This app predicts if a statement is sexist or not")
+st.title("You're Not Sexist: Sexism Detection Tool")
+st.write("Our fine-tuned BERT model is a sophisticated tool designed to detect sexism in texts. By leveraging advanced NLP techniques, contextual embeddings, and extensive pre-training, we aim to contribute to the ongoing efforts in addressing biases in language.")
 
 
 if st.button("Generate Random Sexist Phrase"):
@@ -13,7 +13,7 @@ if st.button("Generate Random Sexist Phrase"):
         st.text_area("Generated Phrase", phrase, key="generated_phrase")
 
 
-entry_text = st.text_input("Statement", "paste your sexist phrase here")
+entry_text = st.text_input("Statement", "Paste your sexist phrase here!")
 
 if st.button("Is this sexist?"):
     data = {
