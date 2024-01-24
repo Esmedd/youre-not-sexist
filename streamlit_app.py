@@ -5,7 +5,7 @@ import random
 from sexism_generator import *
 
 st.title("You're Not Sexist...")
-st.subheading("...but what you just wrote might be.", divider=“red”)
+st.subheading("...but what you just wrote might be.", divider="red")
 st.write("Our fine-tuned BERT model is a sophisticated tool designed to detect sexism in texts. By leveraging advanced NLP techniques, contextual embeddings, and extensive pre-training, we aim to contribute to the ongoing efforts in addressing biases in language.")
 st.write("By Arnaud Blanchard, Carina Prunkl, Marion Gagnadre & Elizabeth den Dulk")
 
